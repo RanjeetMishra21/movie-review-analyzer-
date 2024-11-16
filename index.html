@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sentiment Analysis</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+
+        <h1>Movie Review Sentiment Analysis</h1>
+        <label for="movieInput">Enter Movie Name:</label><br>
+        <input type="text" id="movieInput" placeholder="e.g., The Matrix"><br><br>
+        
+        <label for="reviewInput">Enter Review:</label><br>
+        <textarea id="reviewInput" placeholder="Write your review here..." rows="4" cols="50"></textarea><br><br>
+        
+        <button onclick="analyzeSentiment()">Analyze Sentiment</button>
+        <div id="result"></div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
